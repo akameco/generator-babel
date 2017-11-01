@@ -22,7 +22,7 @@
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage --ci --runInBand",
     "test:ci": "npm run validate",
-    "validate": "npm run lint && npm run flow && npm run test:cov"
+    "validate": "npm run lint && npm run flow && npm run test"
   },
   "lint-staged": {
     "*.js": ["fmt", "validate", "git add"],
