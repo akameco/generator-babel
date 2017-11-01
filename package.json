@@ -43,9 +43,6 @@
     "pify": "^3.0.0",
     "prettier": "^1.6.1"
   },
-  "ava": {
-    "failWithoutAssertions": false
-  },
   "publishConfig": {
     "access": "public"
   }
