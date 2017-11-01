@@ -16,55 +16,29 @@ $ npm install <%= moduleName %>
 
 ## Usage
 
-```js
-const <%= camelModuleName %> = require('<%= moduleName %>');
+.babelrc
 
-<%= camelModuleName %>('unicorns');
-//=> 'unicorns & rainbows'
+```js
+{
+  "plugins": ["<%= moduleName %>"]
+}
 ```
 
+### Options
 
-## API
-
-### `<%= camelModuleName %>(input, [options])`
-
-#### input
-
-Type: `string`
+### hoge
 
 Lorem ipsum.
 
-#### options
+## Examples
 
-##### foo
+```js
+console.log('hello')
 
-Type: `boolean`<br>
-Default: `false`
+ ↓ ↓ ↓ ↓ ↓ ↓
 
-Lorem ipsum.<% if (cli) { %>
-
-
-## CLI
-
+console.log('world')
 ```
-$ npm install --global <%= moduleName %>
-```
-
-```
-$ <%= repoName %> --help
-
-  Usage
-    <%= repoName %> [input]
-
-  Options
-    --foo  Lorem ipsum [Default: false]
-
-  Examples
-    $ <%= repoName %>
-    unicorns & rainbows
-    $ <%= repoName %> ponies
-    ponies & rainbows
-```<% } %>
 
 ## Contributors
 
