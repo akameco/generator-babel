@@ -22,7 +22,7 @@ $ npm install --global yo @akameco/generator-babel
 With [yo](https://github.com/yeoman/yo):
 
 ```
-$ yo @akameco/generator-babel
+$ yo @akameco/babel
 ```
 
 ## License
