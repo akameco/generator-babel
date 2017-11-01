@@ -5,5 +5,6 @@ import plugin from '.'
 pluginTester({
   title: 'default',
   plugin,
+  snapshot: true,
   tests: [`// noop`],
 })

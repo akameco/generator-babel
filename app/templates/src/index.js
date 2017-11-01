@@ -1,6 +1,7 @@
 // @flow
+// import blog from 'babel-log'
 
-export default () => {
+export default ({ types: t }) => {
   return {
     name: '<%= repoName %>',
     visitor: {},
