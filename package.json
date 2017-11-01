@@ -1,0 +1,52 @@
+{
+  "name": "@akameco/generator-babel",
+  "version": "0.0.0",
+  "description": "Scaffold out a babel plugin",
+  "license": "MIT",
+  "repository": "akameco/generator-babel",
+  "author": {
+    "name": "akameco",
+    "email": "akameco.t@gmail.com",
+    "url": "akameco.github.io"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "fmt": "prettier --write '**/*.{js,json}'",
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "plugin",
+    "boilerplate",
+    "template",
+    "scaffold",
+    "node",
+    "babel",
+    "babel-plugin",
+    "init"
+  ],
+  "dependencies": {
+    "is-scoped": "^1.0.0",
+    "superb": "^2.0.0",
+    "underscore.string": "^3.3.4",
+    "yeoman-generator": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.0",
+    "eslint-config-precure": "^0.10.1",
+    "pify": "^3.0.0",
+    "prettier": "^1.6.1"
+  },
+  "ava": {
+    "failWithoutAssertions": false
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
