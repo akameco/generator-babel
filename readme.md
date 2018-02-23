@@ -1,4 +1,6 @@
 # @akameco/generator-babel
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/akameco/generator-babel.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/akameco/generator-babel.svg?branch=master)](https://travis-ci.org/akameco/generator-babel)
 
 > Scaffold out a Babel Plugin
